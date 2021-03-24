@@ -1,0 +1,161 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.width{
+    max-width: 1200px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.text-left{
+    text-align-last: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Header part */
+.header{
+    background: #3498db;
+    color: white;
+    padding: 8px 5px;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.logo img{
+    width: 170px;
+    height: auto;
+}
+.menu{
+    float: right;
+    width: 70%;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin: 0 20px;
+    line-height: 58px;
+    transition: 0.5s;
+
+}
+.menu ul li a:hover{
+    color: black;
+}
+
+/* Banner Part */
+.banner{
+    background-image: url(https://i.ibb.co/N2GCRPY/typing-laptop-display-email-Featured.jpg);
+    padding: 200px 0;
+    background-position: top center;
+    background-size: cover;
+}
+.banner h2{
+    background: rgb(119, 107, 107);
+    color: white;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.banner h1{
+    background: rgb(51, 179, 162);
+    color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+}
+.about{ 
+    padding: 30px 0;
+}
+.about h2{
+    margin-bottom: 10px;
+}
+.about p{
+    max-width: 600px;
+    margin: auto;
+}
+/* Service section */
+.service{}
+.div1{
+    float: left;
+    width: 32%;
+    border: 1px solid rgb(119, 109, 109);
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.div1 span{
+    width: 50px;
+    height: 50px;
+    background: rgb(11, 129, 184);
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 30px;
+    border-radius: 18px 0 18px 0;
+}
+.div1 h2{
+    margin: 15px 0;
+}
+.div1 p{}
+
+/* Container part */
+.container{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.container-left{
+    float: left;
+    width: 65%;
+}
+.container-right{
+    float: right;
+    width: 30%;
+}
+.container-left img{
+    width: 170px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+.container-left p{
+    
+}
+
+.container-right h2{
+    border-bottom: 1px solid rgb(106, 93, 93);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.container-right li{
+    list-style: none;
+    border: 1px solid rgb(181, 162, 162);
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.footer-bottom{
+    background: #34495e;
+    padding: 10px 0;
+    color: white;
+}
